@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bronze_db
+    database: hive_metastore  
+    schema: poc_bronze
+    tables:
+      - name: product
+      - name: product_category
